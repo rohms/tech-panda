@@ -1,0 +1,109 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* text-align: center; */
+}
+
+/* Nav */
+
+.navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  /* height: 4.5rem; */
+}
+
+
+/* For dropdown menu */
+
+.dropdown-menu li {
+  position: relative;
+}
+  
+.dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+}
+
+.dropdown-menu .dropdown-submenu-left {
+  right: 100%;
+  left: auto;
+}
+
+.dropdown-menu > li:hover > .dropdown-submenu {
+  display: block;
+}
+
+.navbar .nav-link:hover {
+    color: rgb(0, 119, 255)
+}
+
+  /* Landing */
+
+  .hero-title {
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color: rgb(231, 6, 231)
+
+  }
+
+  /* Carousel */
+
+  .carousel-container {
+    max-width: 900px;
+    margin-bottom: 5rem;
+  }
+
+  .carousel-inner img {
+    height: 500px;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  /* .carousel-item {
+    width: 500px;
+    height: 300px;
+  } */
+
+  /* .carousel-img {
+    width: auto;
+    object-fit: cover;
+  } */
+
+  @media (min-width: 792px) {
+    .hero {
+      max-width: 600px;
+    }
+  }
+
+  /* Stats */
+
+  .stats {
+    margin-top: 6rem;
+  }
+
+  .stats-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(133, 5, 145)
+  }
+
+  .stats-title__sub {
+    max-width: 15.625rem;
+  }
+
+  /* Cards */
+
+  .card-img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+
+.card-cont {
+  max-width: 400px;
+}
+
+
