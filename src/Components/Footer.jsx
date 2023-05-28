@@ -1,116 +1,116 @@
 const Footer = () => {
   return (
-    <div class="container-fluid bg-light mx-0 px-5">
-      <footer class="py-5">
-        <div class="row">
-          <div class="col-6 col-md-2 mb-3">
+    <div className="container-fluid bg-light mx-0 px-5">
+      <footer className="py-5">
+        <div className="row">
+          <div className="col-6 col-md-2 mb-3">
             <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
                   Home
                 </a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
                   Features
                 </a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
                   Pricing
                 </a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
                   FAQs
                 </a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
                   About
                 </a>
               </li>
             </ul>
           </div>
 
-          <div class="col-6 col-md-2 mb-3">
+          <div className="col-6 col-md-2 mb-3">
             <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
                   Home
                 </a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
                   Features
                 </a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
                   Pricing
                 </a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
                   FAQs
                 </a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
                   About
                 </a>
               </li>
             </ul>
           </div>
 
-          <div class="col-6 col-md-2 mb-3">
+          <div className="col-6 col-md-2 mb-3">
             <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
                   Home
                 </a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
                   Features
                 </a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
                   Pricing
                 </a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
                   FAQs
                 </a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-muted">
                   About
                 </a>
               </li>
             </ul>
           </div>
 
-          <div class="col-md-5 offset-md-1 mb-3">
+          <div className="col-md-5 offset-md-1 mb-3">
             <form>
               <h5>Subscribe to our newsletter</h5>
               <p>Monthly digest of what's new and exciting from us.</p>
-              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                <label for="newsletter1" class="visually-hidden">
+              <div className="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label htmlFor="newsletter1" className="visually-hidden">
                   Email address
                 </label>
                 <input
                   id="newsletter1"
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Email address"
                 />
-                <button class="btn btn-primary" type="button">
+                <button className="btn btn-primary" type="button">
                   Subscribe
                 </button>
               </div>
@@ -118,26 +118,26 @@ const Footer = () => {
           </div>
         </div>
 
-        <div class="d-flex flex-column flex-sm-row justify-content-between my-1 border-top">
+        <div className="d-flex flex-column flex-sm-row justify-content-between my-1 border-top">
           <p>© 2022 Company, Inc. All rights reserved.</p>
-          <ul class="list-unstyled d-flex">
-            {/* <li class="ms-3">
-              <a class="link-dark" href="#">
-                <svg class="bi" width="24" height="24">
+          <ul className="list-unstyled d-flex">
+            {/* <li className="ms-3">
+              <a className="link-dark" href="#">
+                <svg className="bi" width="24" height="24">
                   <use xlink:href="#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="ms-3">
-              <a class="link-dark" href="#">
-                <svg class="bi" width="24" height="24">
+            <li className="ms-3">
+              <a className="link-dark" href="#">
+                <svg className="bi" width="24" height="24">
                   <use xlink:href="#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="ms-3">
-              <a class="link-dark" href="#">
-                <svg class="bi" width="24" height="24">
+            <li className="ms-3">
+              <a className="link-dark" href="#">
+                <svg className="bi" width="24" height="24">
                   <use xlink:href="#facebook"></use>
                 </svg>
               </a>

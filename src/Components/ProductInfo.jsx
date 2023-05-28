@@ -11,6 +11,7 @@ const ProductInfo = () => {
       <div className="d-flex justify-content-center flex-wrap  gap-5">
         {fakeCards.map((card) => (
           <Card
+            key={card.id}
             image={panda}
             title={card.title}
             description={card.description}

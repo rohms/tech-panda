@@ -1,4 +1,6 @@
+// navbar click is not working if this is not imported
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import { MyModal } from "./MyModal";
 
 const Navbar = () => {
   return (
@@ -102,9 +104,15 @@ const Navbar = () => {
                 Search
               </button>
             </form> */}
-            <button type="button" className="btn btn-primary ms-2">
+            <button
+              type="button"
+              className="btn btn-primary ms-2"
+              data-bs-toggle="modal"
+              data-bs-target="#myModal"
+            >
               Login
             </button>
+            <MyModal />
           </div>
         </div>
       </nav>
